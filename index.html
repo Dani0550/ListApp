@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Frontend Mentor | Todo app</title>
+</head>
+<body>
+  <div class="fondo"></div>
+  <div class="responsive">
+  <header class="encabezado">
+      <h1>TODO</h1>
+      <img class="theme" src="images/icon-sun.svg" alt="theme-icon" />
+  </header>
+  <div class="inputContainer">
+    <input type="text" id="name" class="nombre" placeholder="Create a new todo...">
+    <button class="añadir"></button>
+  </div>
+
+  <div class="tareasContainer">
+  
+  </div>
+  <div class="displayMob">
+    <div class="mob-spanContainer">
+        <span class="span"><span class="span22"></span> items left</span>
+    </div>
+    <button class="mob-clear">Clear completed</button>
+  </div>
+  <div class="filters">
+      <button class="boton mob-all" id="All">All</button>
+      <button class="boton mob-active" id="Active">Active</button>
+      <button class="boton mob-completed" id="Completed">Completed</button>
+  </div>
+
+  <div class="botonesContainer">
+      <div class="spanContainer">
+        <span class="span"><span class="span2"></span> items left</span>
+      </div>
+      <button class="boton all" id="All">All</button>
+      <button class="boton active" id="Active">Active</button>
+      <button class="boton completed" id="Completed">Completed</button>
+      <button class="clear">Clear completed</button>
+  </div>
+  </div>
+
+  <script type="text/javascript" src="code.js"></script>
+</body>
+</html>
